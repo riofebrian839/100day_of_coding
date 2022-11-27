@@ -1,0 +1,3 @@
+a = ['Alfabet']
+a.extend('ABC')
+print(a)
