@@ -1,0 +1,3 @@
+D = {"one" : "satu", "two" : "dua", "three" : "tiga" }
+D.get("three")
+print(D)
