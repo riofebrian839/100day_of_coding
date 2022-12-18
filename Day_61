@@ -1,0 +1,4 @@
+def add(a,b):
+    return a+5, b+5
+tambah = add(3,2)
+print(tambah)
