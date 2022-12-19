@@ -1,0 +1,3 @@
+dict ={1:4 , 2:8, 5:16, 8:32}
+result = list(dist.values())
+print(result[2])
