@@ -1,0 +1,25 @@
+def ber():
+    print("Tahun 2022 Harga Sembako Turun :")
+
+def bur():
+    ber()
+    print("Harga cabai perkilo adalah Rp.75.000")
+    print("Harga Ayam perkilo adalah Rp.55.000")
+    print("Harga Minyak goreng Perliter adalah Rp.25.000")
+          
+def bar(kg):
+    harga_cabai = 75000
+    harga_ayam = 55000
+    harga_minyak = 25000
+    harga_total_cabai = kg*harga_cabai
+    harga_total_ayam = kg*harga_ayam
+    harga_total_minyak = kg*harga_minyak
+    total_belanja = harga_total_cabai + harga_total_ayam + harga_total_minyak
+    print("\nharga",kg,"Cabai Adalah Rp.",harga_total_cabai)
+    print("harga",kg,"Ayam Adalah Rp.",harga_total_ayam)
+    print("harga",kg,"Minyak Adalah Rp.",harga_total_minyak)
+    print("\nJadi Total Semua Belanjaan Adalah Rp.",total_belanja)
+    
+
+bur()
+bar(2
