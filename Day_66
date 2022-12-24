@@ -1,0 +1,6 @@
+#Program bilangan bulat 1 sampai x
+i = 1
+x=int(input("Masukkan Bilangan :"))
+while i <= x :
+    print(i)
+    i = i+1
