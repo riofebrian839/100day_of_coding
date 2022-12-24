@@ -1,0 +1,9 @@
+#mengurutkan angka
+
+angka =[2,1,5,4,3]
+print("Angka Awal")
+print(angka)
+print("==========")
+angka.sort()
+print("Nilai Akhir")
+print(angka)
