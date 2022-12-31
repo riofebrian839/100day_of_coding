@@ -1,0 +1,13 @@
+def factorial(n):
+    result = 1
+    if n<0:
+        print("not allowed")
+    elif n ==1:
+        print(1)
+    else:
+        while n >= 1:
+            result *=n
+            n-=1
+    return print(result)
+
+factorial(4)
