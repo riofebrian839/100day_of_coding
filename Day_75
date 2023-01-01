@@ -1,0 +1,8 @@
+#menampilkan sebagian list
+angka =[2,6,4,8,1,5,7,3]
+print(angka)
+print("====================")
+print(angka[4:]) # 4 angka dimulai dari akhir
+print(angka[2:]) # 2 dimulai dari akhir
+print(angka[:4]) # 4 angka pertama
+print(angka[2:4])
